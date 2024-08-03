@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  background-color: #000000;
+  color: #fff;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+}
+p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.paimare-bg {
+  background-color: #222222;
+}
+.paimare-button {
+  border: 2px solid transparent;
+  background-color: #e6533c;
+  border-radius: 40px;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.paimare-button:hover {
+  border: 2px solid #e6533c;
+  background-color: transparent;
+}
+.paimare-width {
+  width: 80%;
+}
+.paimare-display-flex {
+  display: flex;
+}
+.auto-margin {
+  margin: 0 auto;
+}
+/* header section deginr start ==================================== */
+.header-section {
+  margin: 50px auto;
+  gap: 20px;
+}
+.logo {
+  font-size: 36px;
+  font-weight: 800;
+  color: #e6533c;
+}
+.nav-bare {
+  justify-content: space-between;
+  align-items: center;
+}
+.manu {
+  display: none;
+}
+.list-item {
+  gap: 45px;
+  align-items: center;
+}
+.list-item a {
+  display: flex;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.list-item .ankor:hover {
+  transform: translateY(-5px);
+  color: #e6533c;
+}
+.content {
+  padding: 120px 0px 50px 0px;
+  width: 70%;
+}
+.content-head {
+  font-size: 70px;
+}
+span {
+  font-style: italic;
+}
+.content-dasc {
+  padding: 20px 0px;
+}
+.right-button {
+  border: 2px solid #e6533c;
+  background-color: transparent;
+  border-radius: 40px;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.4s ease;
+  margin-left: 10px;
+}
+.banner-img {
+  height: 580px;
+}
+.vedio {
+  position: relative;
+  width: 50%;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+  padding: 10px 0px 10px 20px;
+  top: -420px;
+  right: -150px;
+}
+.vedio h2 {
+  font-size: 40px;
+}
+.vedio p {
+  font-size: 13px;
+}
+.free {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 70%;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+  padding: 10px 0px 10px 20px;
+  gap: 10px;
+  top: -250px;
+  left: -200px;
+}
+.carcal {
+  height: 50px;
+  width: 50px;
+  background-color: #e6533c;
+  border-radius: 50%;
+}
+
+/* header section deginr end ==================================== */
+/* main section degin start ======================================= */
+.habits-header {
+  width: 70%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 30px;
+}
+.habits-header p {
+  padding: 20px;
+}
+.main-section {
+  margin: 0 auto;
+}
+.habits-img-content {
+  gap: 20px;
+}
+
+.habits-img-content img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.img-con {
+  align-items: center;
+  text-align: center;
+}
+.img-con img {
+  width: 30%;
+  height: 230px;
+  width: 230px;
+}
+.con {
+  padding: 20px;
+}
+.img-con p {
+  padding: 10px;
+}
+.run-extra {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #222222;
+  border-radius: 20px;
+  gap: 30px;
+}
+.run-content {
+  width: 50%;
+  padding-top: 30px;
+}
+.run-content p {
+  padding: 20px 0px;
+}
+.run-img {
+  width: 50%;
+  border-radius: 20px;
+}
+.run-img img {
+  border-radius: 20px;
+}
+/* footer section degin start -========================= */
+.footer-section {
+  background-color: #222222;
+}
+.footer-degin {
+  gap: 50px;
+  margin: 100px 0 20px 0;
+  align-items: center;
+  padding: 50px 130px;
+}
+.section-1 {
+  width: 50%;
+}
+.section-1 p {
+  padding: 40px 0px;
+}
+.section-2,
+.section-3 {
+  width: 25%;
+  margin-left: 100px;
+}
+.section-2 li,
+.section-3 li {
+  color: #fff;
+  margin: 20px 0px;
+}
+
+.section-2 li a,
+.section-3 li a {
+  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
+}
+.Al-right p {
+  text-align: center;
+  padding: 40px;
+  justify-content: center;
+}
+
+.tem-head {
+  text-align: center;
+  margin: 30px auto;
+}
+.tem-head p {
+  padding: 20px;
+}
+.tem-img {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+  background-color: #222222;
+  border-radius: 20px;
+}
+.tem-img img {
+  border-radius: 20px;
+}
+.img .triner {
+  position: relative;
+  top: -70px;
+  left: 30px;
+}
+table,
+tr,
+td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+td {
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.tabel-roo td {
+  font-size: 20px;
+  color: #ddd;
+  font-weight: 700;
+}
+.calculator {
+  width: 100%;
+}
+.calculator-head {
+  text-align: center;
+  margin: 50px auto;
+}
+.calculator-head p {
+  padding: 20px;
+}
+.calculator-content {
+  background-color: #222222;
+  width: 100%;
+  gap: 30px;
+  justify-content: center;
+  padding: 30px 0px;
+}
+
+.tabal-content h3,
+.input-content h3 {
+  padding: 20px 0px;
+}
+.input-content {
+  padding-left: 100px;
+}
+.input-content p {
+  padding-bottom: 20px;
+}
+.input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+  padding-bottom: 20px;
+}
+.input input,
+.input select {
+  padding: 15px 16%;
+  border-radius: 10px;
+  border: none;
+}
+.input .select-1 {
+  padding: 15px 38%;
+}
+.input .select-2 {
+  padding: 15px 70%;
+}
+.trainings-section {
+  width: 80%;
+  margin: 30px auto;
+}
+.training-hrad {
+  text-align: center;
+  padding: 20px;
+}
+.training-hrad p {
+  padding: 20px;
+}
+.trainings-img {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+
+::selection {
+  color: aqua;
+  background-color: #222222;
+}
+
+/* footer section degin end -========================= */
+/* main section degin End ======================================= */
+/* rasponcivr start ========================== */
+@media screen and (max-width: 576px) {
+  .manu {
+    display: block;
+  }
+  .list-item {
+    display: none;
+  }
+  .banner-section {
+    flex-direction: column;
+  }
+  .content {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .content-head {
+    font-size: 30px;
+  }
+  .banner-img,
+  .run-img,
+  .run-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .free {
+    top: -300px;
+    left: -50px;
+  }
+  .vedio {
+    top: -420px;
+    right: -80px;
+  }
+  .paimare-button {
+    padding: 7px 15px;
+    font-size: 12px;
+  }
+  .right-button {
+    padding: 7px 15px;
+    font-size: 12px;
+  }
+  .habits-img-content {
+    flex-direction: column;
+  }
+  .habits-header {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .run-extra {
+    flex-direction: column;
+  }
+  .run-button {
+    width: 100%;
+  }
+  .footer-degin {
+    flex-direction: column;
+    padding: 30px 50px;
+  }
+  .section-1,
+  .section-2,
+  .section-3 {
+    width: 100%;
+  }
+  .section-2,
+  .section-3 {
+    margin-left: 0px;
+  }
+  .tem-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .calculator-content {
+    flex-direction: column;
+  }
+  .tabal-content {
+    margin: 0 auto;
+  }
+  .input-content {
+    padding: 25px;
+  }
+  .input input,
+  .input select {
+    padding: 7px 0%;
+    border-radius: 10px;
+    border: none;
+  }
+  .input .select-1 {
+    padding: 7px 36%;
+  }
+  .input .select-2 {
+    padding: 7px 57%;
+  }
+  .trainings-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* rasponcivr End ============================ */
